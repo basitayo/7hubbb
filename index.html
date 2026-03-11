@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+
+        <nav class="m-nav">
+            <a class="hoome" href="#">Home</a>
+            <a class="hooom" href="#">Blog</a>
+            <a class="hooom" href="#">Free Ads</a>
+            <a class="hooom" href="#">Contact Us</a>
+        </nav>
+
+        <div class="find-bar">
+            <input type="search" id="sereach">
+            <button class="f-btn1">🔍</button>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="b-titttle">
+            <h2>BLOG</h2>
+            <button class="read-more">Read Our Blog ></button>
+        </section>
+
+        <section class="bb-grid">
+
+            <div class="bb-ggri grri1">
+                <div class="bgg-image">
+
+                </div>
+                <div class="bgtt">
+                    <small><span>Category</span> Gym | 22 Feb</small>
+                    <h3>BEST FREE-ADS BLOG SITE IN NIGERIA</h3>
+                </div>
+            </div>
+
+            <div class="bb-ggri grri2">
+
+                <div class="ololol">
+                    <small><span>Category</span> Gym | 22 Feb</small>
+                    <div class="oliiive-btn">
+                        <button>^</button>
+                    </div>
+                </div>
+
+                <h3>BEST FREE-ADS BLOG SITE IN NIGERIA</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex temporibus dolore consequuntur perspiciatis et corporis sunt provident corrupti doloribus quas <a href="#">More..</a>.</p>
+                <hr>
+                <p>HOW TO POST GREEN GOLF ADS LIKE A PRO</p>
+                <hr>
+                <p>HOW TO POST GREEN GOLF ADS LIKE A PRO</p>
+
+                
+            </div>
+
+            <div class="bb-ggri grri3">
+                <div>
+                    <small><span>Category</span> Gym | 22 Feb</small>
+                    <h3>BEST FREE-ADS BLOG SITE IN NIGERIA</h3>
+
+                </div>
+                <div class="third-partimg">
+
+                </div>
+            </div>
+
+            <div class="bb-ggri grri4">
+                <!-- <div class="bbg-immg">
+
+                </div> -->
+                <div class="vidioo-secc">
+                    <small><span>Category</span> Tutorial</small>
+
+                    <div>
+                        <small>5 Min 22 Feb</small>
+                        <h3>BEST FREE-ADS BLOG SITE IN NIGERIA</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            
+
+            <div class="bb-ggri grri5">
+
+                
+                <div>
+                    <p>To Gain Access to our Whatsapp Channels. Click this button</p>
+                    <button>></button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+</body>
+
+    <script>
+const navLinks = document.querySelectorAll(".m-nav a");
+
+navLinks.forEach(link => {
+    link.addEventListener("click", function() {
+
+        // remove active class from all links
+        navLinks.forEach(l => l.classList.remove("active"));
+
+        // add active class to clicked link
+        this.classList.add("active");
+
+    });
+});
+</script>
+
+</html>
