@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+
+        <nav class="m-nav">
+            <a class="hooom" href="index.html">Home</a>
+            <a class="active" href="blog.html">Blog</a>
+            <a class="hooom" href="#">Free Ads</a>
+            <a class="hooom" href="#">Contact Us</a>
+        </nav>
+
+        <div class="find-bar">
+            <input type="search" id="sereach" placeholder="Search for blog">
+            <button class="f-btn1">🔍</button>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="setct-one">
+
+            <p class="bbout-sec">Lifestyle</p>
+
+            <h3 class="btitle">Moments that matter --</h3>
+
+            <p class="bidentity"><a href="#">Jessica Williams</a>: posted on January 22, 2025</p>
+
+            <p class="bbout-sec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sequi ducimus deserunt eius corrupti culpa delectus quos distinctio a dolor saepe architecto, voluptates odit modi quisquam vitae tempora itaque expedita nostrum nobis aperiam similique illum necessitatibus dolorum. Ipsa, reiciendis aliquid!</p>
+            <a class="remore" href="#">Read More</a>
+
+            <hr>
+        </section>
+
+        <section class="setct-one">
+
+            <div class="animg"></div>
+
+            <p class="bbout-sec">Design</p>
+
+            <h3 class="btitle">Simplicity and Direction --</h3>
+
+            <p class="bidentity"><a href="#">Harrie Domme</a>: posted on January 22, 2025</p>
+
+            <p class="bbout-sec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sequi ducimus deserunt eius corrupti culpa delectus quos distinctio a dolor saepe architecto, voluptates odit modi quisquam vitae tempora itaque expedita nostrum nobis aperiam similique illum necessitatibus dolorum. Ipsa, reiciendis aliquid!</p>
+            <a class="remore" href="#">Read More</a>
+
+            <hr>
+        </section>
+
+        <section class="setct-one">
+
+            <p class="bbout-sec">Lifestyle</p>
+
+            <h3 class="btitle">Job Posting From Fintec --</h3>
+
+            <p class="bidentity"><a href="#">Fintec communications</a>: posted on January 22, 2025</p>
+
+            <p class="bbout-sec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sequi ducimus deserunt eius corrupti culpa delectus quos distinctio a dolor saepe architecto, voluptates odit modi quisquam vitae tempora itaque expedita nostrum nobis aperiam similique illum necessitatibus dolorum. Ipsa, reiciendis aliquid!</p>
+            <a class="remore" href="#">Read More</a>
+
+            <hr>
+        </section>
+
+        <section class="setct-one sssetct">
+
+            <p class="bbout-sec">Lifestyle</p>
+
+            <h3 class="btitle">Job Posting From Fintec --</h3>
+
+            <p class="bidentity"><a href="#">Fintec communications</a>: posted on January 22, 2025</p>
+
+            <p class="bbout-sec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sequi ducimus deserunt eius corrupti culpa delectus quos distinctio a dolor saepe architecto, voluptates odit modi quisquam vitae tempora itaque expedita nostrum nobis aperiam similique illum necessitatibus dolorum. Ipsa, reiciendis aliquid!</p>
+            <a class="remore" href="#">Read More</a>
+
+            <hr>
+        </section>
+
+        <button class="loadmorebtn">Load More</button>
+
+        
+
+
+    </main>
+
+    <footer>@2026 7hubent -- All rights reserved.</footer>
+
+</body>
+
+<script>
+const sssessio = document.querySelector(".sssetct");
+const bbutn = document.querySelector(".loadmorebtn");
+
+sssessio.style.display = "none";
+
+bbutn.addEventListener("click", function(){
+
+    if (sssessio.style.display === "none") {
+        sssessio.style.display = "block";
+        bbutn.textContent = "Show Less";
+    } 
+    else {
+        sssessio.style.display = "none";
+        bbutn.textContent = "Load More";
+    }
+
+});
+</script>
+
+
+</html>
