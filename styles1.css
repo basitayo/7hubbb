@@ -7,6 +7,28 @@
 html{
     scroll-behavior:smooth;
 }
+
+.floating-wa{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25D366;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.floating-wa:hover{
+    background-color: #1ebe5d;
+    transform: translateY(-3px);
+}
+
+
 body{
     padding: 20px;
     /* height: 100vh; */
@@ -120,17 +142,62 @@ header{
     color: #1e1e1e;
 }
 
-.animg{
-    background-image: url(grass.jpg);
+.one-oone .animg{
+    background-image: url(images/majo-imgg.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     height: 400px;
     border-radius: 20px;
 }
 
+.stomp{
+    background-image: url(images/wikkki.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.sttsrr{
+    background-image: url(images/iiooomm.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 20px;
+}
+
+
+
 .sssetct{
     transition: all 0.4s ease;
+}
+
+
+.wa-groups{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.wbtn{
+    display: block;
+    text-align: center;
+    padding: 12px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.wbtn:hover{
+    background-color: #1ebe5d;
+    transform: translateY(-3px);
 }
 
 .loadmorebtn{
@@ -228,8 +295,8 @@ footer{
         margin-top: 50px;
     }
 
-    .logo img{
+    /* .logo img{
         width: 100px;
-    }
+    } */
 
 }
