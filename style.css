@@ -7,6 +7,27 @@
 html{
     scroll-behavior:smooth;
 }
+
+.floating-wa{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25D366;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.floating-wa:hover{
+    background-color: #1ebe5d;
+    transform: translateY(-3px);
+}
+
 body{
     padding: 20px;
     height: 100vh;
@@ -105,6 +126,8 @@ header{
 
 .bb-ggri{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .bb-ggri:hover{
@@ -126,8 +149,8 @@ header{
     clip-path: polygon( 100% 96.364%,100% 96.364%,99.944% 96.953%,99.781% 97.513%,99.521% 98.035%,99.172% 98.511%,98.743% 98.935%,98.243% 99.298%,97.681% 99.594%,97.065% 99.815%,96.404% 99.952%,95.708% 100%,54.721% 100%,54.721% 100%,54.025% 99.952%,53.364% 99.815%,52.749% 99.594%,52.186% 99.298%,51.686% 98.935%,51.257% 98.511%,50.908% 98.035%,50.648% 97.513%,50.485% 96.953%,50.429% 96.364%,50.429% 94.364%,50.429% 94.364%,50.373% 93.774%,50.21% 93.214%,49.95% 92.692%,49.601% 92.216%,49.172% 91.792%,48.672% 91.429%,48.11% 91.133%,47.494% 90.913%,46.834% 90.775%,46.137% 90.727%,31.974% 90.727%,31.974% 90.727%,31.278% 90.68%,30.618% 90.542%,30.002% 90.321%,29.44% 90.026%,28.939% 89.662%,28.51% 89.239%,28.161% 88.762%,27.901% 88.24%,27.739% 87.681%,27.682% 87.091%,27.682% 84.727%,27.682% 84.727%,27.626% 84.137%,27.464% 83.578%,27.203% 83.056%,26.854% 82.58%,26.425% 82.156%,25.925% 81.793%,25.363% 81.497%,24.747% 81.276%,24.087% 81.139%,23.391% 81.091%,4.292% 81.091%,4.292% 81.091%,3.596% 81.043%,2.935% 80.906%,2.319% 80.685%,1.757% 80.389%,1.257% 80.026%,0.828% 79.602%,0.479% 79.126%,0.219% 78.604%,0.056% 78.044%,0% 77.455%,0% 3.636%,0% 3.636%,0.056% 3.047%,0.219% 2.487%,0.479% 1.965%,0.828% 1.489%,1.257% 1.065%,1.757% 0.702%,2.319% 0.406%,2.935% 0.185%,3.596% 0.048%,4.292% 0%,95.708% 0%,95.708% 0%,96.404% 0.048%,97.065% 0.185%,97.681% 0.406%,98.243% 0.702%,98.743% 1.065%,99.172% 1.489%,99.521% 1.965%,99.781% 2.487%,99.944% 3.047%,100% 3.636%,100% 96.364% );
     width: 100%;
     height: 100%;
-    background-image: url(grass.jpg);
-    background-position: center;
+    background-image: url(images/imageonee.webp);
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -158,7 +181,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
-    background-image: url(pink.jpg);
+    background-image: url(images/pink.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -230,7 +253,7 @@ header{
 .third-partimg{
     width: 100%;
     height: 100%;
-    background-image: url(grass.jpg);
+    background-image: url(images/majo-imgg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -241,20 +264,22 @@ header{
     grid-row: 3 / 5;
      /* width: 466px;
      height: 310px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.vidioo-secc{
+.mmmim{
     padding: 10px;
     width: 100%;
     height: 100%;
-    background-image: url(africaa.png);
+    /* max-height: 200px; */
+    background-image: url(images/immg2.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    
 }
 
 .grri5 {
