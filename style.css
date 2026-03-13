@@ -39,6 +39,10 @@ header{
     justify-content: space-between;
 }
 
+.logo img{
+    width: 50px;
+}
+
 .m-nav{
     display: flex;
     gap: 30px;
